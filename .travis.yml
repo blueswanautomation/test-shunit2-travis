@@ -4,4 +4,4 @@ before_script:
     - curl -O https://doc.cloudqa.io/files/cloudqa-jenkins.sh
 
 script:
-    - bash cloudqa-jenkins.sh APIKEY TestSuiteId
+    - bash cloudqa-jenkins.sh "APIKEY" "TestSuiteId"
