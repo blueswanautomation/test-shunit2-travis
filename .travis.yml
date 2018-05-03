@@ -4,4 +4,4 @@ before_script:
     - curl -O https://doc.cloudqa.io/files/cloudqa-jenkins.sh
 
 script:
-    - bash cloudqa-jenkins.sh "5yTUF0WjtAQfYkszr2+36r27kVR2mgGgxYHZjxFyGhE=" "1137"  "uid=test"
+    - bash cloudqa-jenkins.sh "5yTUF0WjtAQfYkszr2+36r27kVR2mgGgxYHZjxFyiutgjhghj=" "1137"  "uid=test"
