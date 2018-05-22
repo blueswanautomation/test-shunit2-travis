@@ -1,5 +1,7 @@
 language: bash
-
+addons:
+    apt:
+      update: true
 before_script:
     - curl -O https://doc.cloudqa.io/files/cloudqa-jenkins.sh
 
