@@ -6,4 +6,4 @@ before_script:
     - curl -O https://doc.cloudqa.io/files/cloudqa-jenkins.sh
 
 script:
-    - bash cloudqa-jenkins.sh "H/tJStnHZVLrYwT3aBBViMTVwuZBkDOoEQoVphLQ8pQ=" "127" "Firefox" "pwd=admin" "789"
+    - bash cloudqa-jenkins.sh "H/tJStnHZVLrYwT3aBBViMTVwuZBkDOoEQoVphLQ8pQ=" "127" "Firefox" "user=Admin,pwd=admin" "789"
