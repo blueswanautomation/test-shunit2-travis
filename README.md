@@ -3,7 +3,7 @@ test-shunit2-travis
 
 [![Build Status](https://travis-ci.org/soulseekah/test-shunit2-travis.png?branch=master)](https://travis-ci.org/soulseekah/test-shunit2-travis)
 
-![test results](https://stage.cloudqa.io/Recoder/SuiteBadge/125?token=yH7Bp0v5Zg3e0uZgfFlEtAvq6iUmqcVRjvkhUpsQao0=)
+[![test results](https://stage.cloudqa.io/Recoder/SuiteBadge/125?token=yH7Bp0v5Zg3e0uZgfFlEtAvq6iUmqcVRjvkhUpsQao0=)](https://stage.cloudqa.io/Recoder/TestSuitesSummary)
 
 
 
