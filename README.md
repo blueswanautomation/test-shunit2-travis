@@ -6,7 +6,6 @@ test-shunit2-travis
 [![test results](https://stage.cloudqa.io/Recoder/SuiteBadge/125?token=yH7Bp0v5Zg3e0uZgfFlEtAvq6iUmqcVRjvkhUpsQao0=)](https://stage.cloudqa.io/Recoder/TestSuitesSummary/125)
 
 
-
 A quick test repository to see how Travis can be used with shunit2.
 
 Inspired by https://stackoverflow.com/questions/20449707/using-travis-ci-for-testing-on-unix-shell-scripts/20450612
