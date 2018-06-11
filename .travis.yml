@@ -6,4 +6,4 @@ before_script:
     - curl -O https://doc.cloudqa.io/files/cloudqa-jenkins.sh
 
 script:
-    - bash cloudqa-jenkins.sh "H/tJStnHZVLrYwT3aBBViMTVwuZBkDOoEQoVphLQ8pQ=" "125" "Chrome" "" "1.0.1"
+    - bash cloudqa-jenkins.sh "H/tJStnHZVLrYwT3aBBViMTVwuZBkDOoEQoVphLQ8pQ=" "125" 
