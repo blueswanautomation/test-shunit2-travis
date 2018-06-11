@@ -7,4 +7,4 @@ before_script:
 
 
 script:
-    - bash cloudqa-jenkins.sh "H/tJStnHZVLrYwT3aBBViMTVwuZBkDOoEQoVphLQ8pQ=" "125" 
+    - bash cloudqa-jenkins.sh "Jyl/vFArdVNlqwOwwUQUpAkNdL0IsLgUTxQmxc5+Jg8=" "1070" 
