@@ -12,4 +12,4 @@ Inspired by https://stackoverflow.com/questions/20449707/using-travis-ci-for-tes
 
 
 # New
-### Test Scheduler : [![](https://app.cloudqa.io/Recoder/SuiteBadge/1070?token=axbvil%2BueKe5G7X3i%2F1r21iQ2Wd4ku%2Bv5RMdv1ejGyg%3D)](https://stage.cloudqa.io/Recoder/TestSuitesSummary/1070)
+### Test Scheduler : [![](https://app.cloudqa.io/Recoder/SuiteBadge/1070?token=axbvil%2BueKe5G7X3i%2F1r21iQ2Wd4ku%2Bv5RMdv1ejGyg%3D)](https://app.cloudqa.io/Recoder/TestSuitesSummary/1070)
