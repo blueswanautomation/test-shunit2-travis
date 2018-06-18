@@ -3,13 +3,8 @@ addons:
     apt:
       update: true
 env:
-    - CLOUDQA_API_KEY="Jyl/vFArdVNlqwOwwUQUpAkNdL0IsLgUTxQmxc5+Jg8="
-    - CLOUDQA_SUITE_ID=1070
-    - CLOUDQA_BROWSER=Chrome
-    - CLOUDQA_VARIABLES="name=parag,number=123"
-    - CLOUDQA_BUILD_TAG=buildtag
-    - CLOUDQA_BASE_URL="https://www.google.com"
+    - CLOUDQA_API_KEY="Jyl/vFArdVNlqwOwwUQUpAkNdL0IsLgUTxQmxc5+Jg8=" CLOUDQA_SUITE_ID=1070 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name=parag,number=123" CLOUDQA_BUILD_TAG=buildtag CLOUDQA_BASE_URL="https://www.google.com"
 before_script:
     - curl -O https://s3.amazonaws.com/cloudqafiles/cloudqa-travisci.sh
 script:
-    - bash cloudqa-travisci.sh  "1070" 
+    - bash cloudqa-travisci.sh
