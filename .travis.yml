@@ -3,7 +3,7 @@ addons:
     apt:
       update: true
 env:
-    - CLOUDQA_API_KEY="7VJ9Qe5C9TRMFxss/ynTJVw7hBIB9WvITX5tnI86wkw=" CLOUDQA_SUITE_ID=127 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name=Admin,number=admin" CLOUDQA_BUILD_TAG=nobaseurltag 
+    - CLOUDQA_API_KEY="7VJ9Qe5C9TRMFxss/ynTJVw7hBIB9WvITX5tnI86wkw=" CLOUDQA_SUITE_ID=127 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name=***Admin,number=admin" CLOUDQA_BUILD_TAG=nobaseurltag 
 before_script:
     - curl -O https://cloudqafiles.s3.amazonaws.com/cloudqa-travisci-stage.sh
 script:
