@@ -2,7 +2,7 @@
      - CLOUDQA_API_KEY="AtZnjWbNMpau1XdMj1RJYTJgQgvyYmKk+r1S57oVJY8=" CLOUDQA_SUITE_ID=1205 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name=Admin,pwd=admin" CLOUDQA_BUILD_TAG=positivetest CLOUDQA_BASE_URL="http://www.seleniumeasy.com"
 
  before_script:
-     - curl -L -0 https://doc.cloudqa.io/files/cloudqa-travisci.sh
+     - curl -O https://doc.cloudqa.io/files/cloudqa-travisci.sh
      
  script:
      - bash cloudqa-travisci.sh
