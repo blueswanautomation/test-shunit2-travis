@@ -1,5 +1,5 @@
  env:
-     - CLOUDQA_API_KEY="sK0dGPsG7XdXDEqDgkr+JrBHRWZQLsaX0YMBL8Es1Pw=" CLOUDQA_SUITE_ID=1309 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name=Admin,pwd=admin" CLOUDQA_BUILD_TAG=positivetest CLOUDQA_BASE_URL="https://jqueryui.com/"
+     - CLOUDQA_API_KEY="sK0dGPsG7XdXDEqDgkr+JrBHRWZQLsaX0YMBL8Es1Pw=" CLOUDQA_SUITE_ID=1039 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name=Admin,pwd=admin" CLOUDQA_BUILD_TAG=positivetest CLOUDQA_BASE_URL="https://jqueryui.com/"
 
  before_script:
      - curl -O https://doc.cloudqa.io/files/cloudqa-travisci.sh
