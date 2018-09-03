@@ -3,6 +3,5 @@
 
  before_script:
      - curl -O https://doc.cloudqa.io/files/cloudqa-travisci.sh
-     
  script:
      - bash cloudqa-travisci.sh
