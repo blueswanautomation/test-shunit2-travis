@@ -1,9 +1,8 @@
  env:
-     - CLOUDQA_API_KEY="sK0dGPsG7XdXDEqDgkr+JrBHRWZQLsaX0YMBL8Es1Pw=" CLOUDQA_SUITE_ID=1039 CLOUDQA_BROWSER=Firefox CLOUDQA_VARIABLES="name=Admin,pwd=admin" CLOUDQA_BUILD_TAG=Try1 CLOUDQA_BASE_URL="https://jqueryui.com/"
+     - CLOUDQA_API_KEY="55V6r8wdLEx3HoB9dqPK36V4yyEvshRyDVE/fBpp2V4=" CLOUDQA_SUITE_ID=1039 CLOUDQA_BROWSER=Firefox CLOUDQA_VARIABLES="name=Admin,pwd=admin" CLOUDQA_BUILD_TAG=Try1 CLOUDQA_BASE_URL="https://jqueryui.com/"
 
  before_script:
-     - curl -O https://doc.cloudqa.io/files/cloudqa-travisci.sh
-     
+     - curl -O https://cquserfiles.s3.amazonaws.com/3167/4c551eaba2ec49daac7116648712ad74/cloudqa-travisci.sh   
      
  script:
      - bash cloudqa-travisci.sh
