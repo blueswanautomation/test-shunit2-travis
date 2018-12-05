@@ -1,8 +1,8 @@
  env:
-     - CLOUDQA_API_KEY="sK0dGPsG7XdXDEqDgkr+JrBHRWZQLsaX0YMBL8Es1Pw=" CLOUDQA_SUITE_ID=1419 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name1=javas,pwd=admin" CLOUDQA_BUILD_TAG=chromewithvariableinput CLOUDQA_BASE_URL="https://app.cloudqa.io/"
+     - CLOUDQA_API_KEY="y4wiT1JOWM9wQq1cCgbRm0hKXF9ZNPnrBVXihWlBlCQ=" CLOUDQA_SUITE_ID=1 CLOUDQA_BROWSER=Firefox CLOUDQA_VARIABLES="name1=javas,pwd=admin" CLOUDQA_BUILD_TAG=executionupdatetest CLOUDQA_BASE_URL="https://www.seleniumeasy.com/"
 
  before_script:
-     - curl -O https://doc.cloudqa.io/files/cloudqa-travisci.sh
+     - curl -O https://devcquserfiles.s3.amazonaws.com/22/8e479e1abb6c43d78e230f8d6a112686/cloudqa-travisci.sh
      
  script:
      - bash cloudqa-travisci.sh
