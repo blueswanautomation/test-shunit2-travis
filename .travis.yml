@@ -1,5 +1,5 @@
  env:
-     - CLOUDQA_API_KEY="y4wiT1JOWM9wQq1cCgbRm0hKXF9ZNPnrBVXihWlBlCQ=" CLOUDQA_SUITE_ID=1 CLOUDQA_BROWSER=Firefox CLOUDQA_VARIABLES="name1=javas,pwd=admin" CLOUDQA_BUILD_TAG=executionupdatetest CLOUDQA_BASE_URL="https://www.seleniumeasy.com/"
+     - CLOUDQA_API_KEY="y4wiT1JOWM9wQq1cCgbRm0hKXF9ZNPnrBVXihWlBlCQ=" CLOUDQA_SUITE_ID=5 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name1=javas,pwd=admin" CLOUDQA_BUILD_TAG=statusfailedtest CLOUDQA_BASE_URL="https://www.seleniumeasy.com/"
 
  before_script:
      - curl -O https://devcquserfiles.s3.amazonaws.com/22/8e479e1abb6c43d78e230f8d6a112686/cloudqa-travisci.sh
