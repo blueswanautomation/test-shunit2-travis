@@ -1,3 +1,5 @@
+language: bash
+
 env:
   - CLOUDQA_API_KEY="DJiKvMPbfAGVbLh/2BoBMkDjD2TxKSZTczpVPQ7T8R0=" CLOUDQA_SUITE_ID=17 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name1=javas,pwd=admin" CLOUDQA_BUILD_TAG=BasicTest1 CLOUDQA_BASE_URL="http://the-internet.herokuapp.com/"
 
