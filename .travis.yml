@@ -8,5 +8,3 @@ before_script:
      
 script:
   - bash cloudqa-travisci.sh
-  
-  
