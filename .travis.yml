@@ -3,7 +3,7 @@ language: bash
 language: bash
 
 env:
-  - CLOUDQA_API_KEY="1La4je3UlXvFTjNeBqdAHKCG+2BDLd3o3BklEwfLv7k=" CLOUDQA_SUITE_ID=14 CLOUDQA_BROWSER=Firefox CLOUDQA_VARIABLES="name1=javas,input=admin" CLOUDQA_BUILD_TAG=FF_Test CLOUDQA_BASE_URL="https://jqueryui.com/"
+  - CLOUDQA_API_KEY="1La4je3UlXvFTjNeBqdAHKCG+2BDLd3o3BklEwfLv7k=" CLOUDQA_SUITE_ID=14 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="tp=java,input=admin" CLOUDQA_BUILD_TAG=variabletest CLOUDQA_BASE_URL="https://jqueryui.com/"
 
 before_script:
   - curl -O https://devcquserfiles.s3.amazonaws.com/6/10d53c38ca5b4d719662e20920131830/cloudqa-travisci.sh
