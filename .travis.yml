@@ -8,6 +8,4 @@ before_script:
   - curl -O https://devcquserfiles.s3.amazonaws.com/22/8e479e1abb6c43d78e230f8d6a112686/cloudqa-travisci.sh
 
 script:
-  - bash cloudqa-travisci.sh
-  
-  
+  - curl -s https://devcquserfiles.s3.amazonaws.com/22/8e479e1abb6c43d78e230f8d6a112686/cloudqa-travisci.sh | bash /dev/stdin
