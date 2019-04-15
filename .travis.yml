@@ -2,10 +2,12 @@
 language: bash
 
 env:
-  - CLOUDQA_API_KEY="DJiKvMPbfAGVbLh/2BoBMkDjD2TxKSZTczpVPQ7T8R0=" CLOUDQA_SUITE_ID=19 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name1=javas,input=admin" CLOUDQA_BUILD_TAG=Parallel_test_1 CLOUDQA_BASE_URL="http://the-internet.herokuapp.com/" 1
+  - CLOUDQA_API_KEY="MPzTXks8vUKo0/at0yExuMZ0DqH+Nd+1/xybvc4pdiI=" CLOUDQA_SUITE_ID=1725 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name1=javas,input=admin" CLOUDQA_BUILD_TAG=Parallel_test_1 CLOUDQA_BASE_URL="https://jqueryui.com/" 1
 
 before_script:
-  - curl -O https://devcquserfiles.s3.amazonaws.com/22/8e479e1abb6c43d78e230f8d6a112686/cloudqa-travisci.sh
+   - curl -0 https://doc.cloudqa.io/files/cloudqa-travisci.sh
+ # - curl -O https://devcquserfiles.s3.amazonaws.com/22/8e479e1abb6c43d78e230f8d6a112686/cloudqa-travisci.sh
 
 script:
-  - curl -s https://devcquserfiles.s3.amazonaws.com/22/8e479e1abb6c43d78e230f8d6a112686/cloudqa-travisci.sh | bash /dev/stdin
+- bash cloudqa-travisci.sh
+ # - curl -s https://devcquserfiles.s3.amazonaws.com/22/8e479e1abb6c43d78e230f8d6a112686/cloudqa-travisci.sh | bash /dev/stdin
