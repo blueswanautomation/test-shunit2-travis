@@ -8,4 +8,4 @@ before_script:
  - curl -O https://files.slack.com/files-pri/T04BE1BV1-FJ17NSPGX/download/cloudqa-travisci_sh.sh
 
 script:
- - bash cloudqa-travisci.sh
+ - bash cloudqa-travisci_sh.sh
