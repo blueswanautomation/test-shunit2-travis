@@ -2,10 +2,10 @@
 language: bash
 
 env:
-  - CLOUDQA_API_KEY="DJiKvMPbfAGVbLh/2BoBMkDjD2TxKSZTczpVPQ7T8R0=" CLOUDQA_SUITE_ID=19 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name1=javas,input=admin" CLOUDQA_BUILD_TAG=Chrome_Retest1 CLOUDQA_BASE_URL="http://the-internet.herokuapp.com/" RUN_SEQUENTIALLY = 0
+ - CLOUDQA_API_KEY="DJiKvMPbfAGVbLh/2BoBMkDjD2TxKSZTczpVPQ7T8R0=" CLOUDQA_SUITE_ID=17 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name1=javas,input=admin" CLOUDQA_BUILD_TAG=Chrome_Retest1 CLOUDQA_BASE_URL="http://the-internet.herokuapp.com/"
 
 before_script:
-  - curl -O https://devcquserfiles.s3.amazonaws.com/98/013ef4a54f964238988e480548250daa/cloudqa-travisci.sh
+ - curl -O https://files.slack.com/files-pri/T04BE1BV1-FJ17NSPGX/download/cloudqa-travisci_sh.sh
 
 script:
-  - bash cloudqa-travisci.sh
+ - bash cloudqa-travisci.sh
