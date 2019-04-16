@@ -5,8 +5,8 @@ env:
   - CIGNITI_API_KEY="W7cgN1dwnSuXkExtaYq7ZRHGgDKtZSJ31vQKSI8cg9g=" CIGNITI_SUITE_ID=3 CLOUDQA_BROWSER=Chrome CIGNITI_VARIABLES="input1=javas,rinput2=admin" CIGNITI_BUILD_TAG=TRAVISCI_CIGNITI CIGNITI_BASE_URL="https://www.seleniumeasy.com/" 1
 
 before_script:
-  - curl -O https://blueswan.s3.amazonaws.com/1/2c2318d191ca46b3a6174f7319186052/cloudqa-travisci%20(1).sh
+  - curl -O https://blueswan.s3.amazonaws.com/1/9ef5d11a53b64acfb03435351d12c357/cloudqa-travisci.sh
 
 script:
-  - bash cloudqa-travisci(1).sh
+  - bash cloudqa-travisci.sh
 
