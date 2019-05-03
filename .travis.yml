@@ -1,10 +1,11 @@
 language: bash
 
 env:
-- CLOUDQA_API_KEY="rKAN2ZIyUQDZLgL27E2oRmP5/uw4mZv4o7raYhQC+xE=" CLOUDQA_SUITE_ID=22 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name1=javas,input=admin" CLOUDQA_BUILD_TAG=Sequential0 CLOUDQA_BASE_URL="http://cloudqa.brightdashstaging.app" FALSE
+- CLOUDQA_API_KEY="DJiKvMPbfAGVbLh/2BoBMkDjD2TxKSZTczpVPQ7T8R0=" CLOUDQA_SUITE_ID=19 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="name1=javas,input=admin" CLOUDQA_BUILD_TAG=Sequential0 CLOUDQA_BASE_URL="http://the-internet.herokuapp.com/" FALSE
 
 before_script:
 - curl -O https://devcquserfiles.s3.amazonaws.com/22/8e479e1abb6c43d78e230f8d6a112686/cloudqa-travisci.sh
 
 script:
 - bash cloudqa-travisci.sh
+
