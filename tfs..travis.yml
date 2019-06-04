@@ -1,0 +1,11 @@
+    
+language: bash
+
+env:
+- APIKEY="lK1r+/yTueZ6CIIjgjLJRqH2xFbnMinLBOoYZeEaqdg=" SUITE_ID=12 BROWSER=Chrome USER_VARIABLES="name1=javas,input=admin" TAG=Sequential0 BASE_URL="https://www.phptravels.net/" SEQUENTIAL_EXECUTION=TRUE
+
+before_script:
+- curl -O https://blueswan.s3.amazonaws.com/45/8906b57db55749168c74d23b3b0d3432/BlueSwan-tfs.sh
+
+script:
+- bash BlueSwan-tfs.sh
